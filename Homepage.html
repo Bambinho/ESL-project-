@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="assets/css/homepage.css">
+	</head>
+	<body >
+		<header>
+			<title> ESL home page</title>
+			<h1> Welcome to U of A ESL students' network</h1>
+		</header>
+		<div id="sign_in/up">
+			<form class="signin" action="../user_Profile/components/login-process.php" method="get" name="login">
+				<label> Username </label><br>
+				<input placeholder="username" type="text" required="" name=u_name id=u_name ><br>
+				<label> Password </label><br>
+				<input placeholder="password" type="password" required="" name="password" id="password"><br>
+				<button type="submit" class="sign in" value="Sign In" name="login_button"  > Login </button>
+				<p style="font-size: 25px"> You don't have an account? </p>
+				
+                
+			</form>
+			<a href="singnuppage.php"> <button id="sign_in"> Sign up</button></a>
+		
+		</div>
+		
+	</body>
+</html>
